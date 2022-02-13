@@ -14,14 +14,15 @@ let circle2 = document.querySelector('#circle2');
 
 // add event listener for mouse over
 circle2.addEventListener('mouseover', () => {
+    // set the stroke width (the border of the circle) to 8px when mouseover actionListener
+    // is invoked
     circle2.style.strokeWidth = "8px";
-    // console.log("moused over");
 })
 
 // add event listener for mouse out
 circle2.addEventListener('mouseout', () => {
+    // set the stroke width to 0 px (hide the border) when the mouse leaves the circle
     circle2.style.strokeWidth = "0px";
-    // console.log("mouse left");
 })
 
 // object for circle3 to edit its functionality
