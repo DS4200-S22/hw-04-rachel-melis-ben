@@ -5,37 +5,26 @@
     <meta charset=utf-8/>
     <link rel="stylesheet" href="stylesheet.css">
     <title>hw-04</title>
-    <h1>Event Handling</h1>
 </head>
 
 
 <body>
+    <h1>Event Handling</h1>
 
-<div id="shapes" class="container">
-
-    <div id="circle1">
-        <svg>
-            <circle class="circle1" cx="50" cy="50" r="40" stroke="black" stroke-width="4"/>
+    <div id="shapes" class="container">
+        <svg type="button" id="circle1">
+            <circle cx="50%" cy="50%" r=50 />
+            <text id="text" x="50%" y="50%" text-anchor="middle">0</text>
         </svg>
-        <div class="text">
-            <p id="count">0</p>
-        </div>
+        <svg>
+            <circle id="circle2" cx="50%" cy="50%" r=50 />
+        </svg>
+        <svg>
+            <circle id="circle3" cx="50%" cy="50%" r=50 />
+        </svg>
     </div>
 
-
-
-    
-    <svg>
-        <circle class="circle2" cx="50" cy="50" r="40"/>
-    </svg> 
-    <svg>
-        <circle class="circle3" cx="50" cy="50" r="40" stroke="black" stroke-width="4"/>
-    </svg> 
-</div>
-
-
+    <script src="main.js"></script>
 </body>
-
-<script src="main.js"></script>
 
 </html>

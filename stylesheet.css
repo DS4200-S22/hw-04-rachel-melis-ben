@@ -6,21 +6,27 @@ h1 {
     text-align: center;
 }
 
-.circle1 {
-    fill:hotpink;
+#circle1 {
+    fill:cadetblue;
 }
-.circle2 {
+#text {
+    fill: floralwhite;
+}
+#circle2 {
     fill:deepskyblue;
+    stroke: black;
+    stroke-width: 0px;
 }
-.circle3 {
-    fill:plum;
-    /*border not working for circles 1 and 3*/
+#circle3 {
+    fill:dodgerblue;
+    opacity: 1;
 }
 
 .container {
     display: flex;
+    flex-direction: row;
     flex-flow: row wrap;
     justify-content: space-evenly;
-    text-align: center;
+    align-content: center;
 }
 
