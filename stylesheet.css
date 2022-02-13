@@ -8,6 +8,8 @@ h1 {
 
 #circle1 {
     fill:cadetblue;
+    stroke: black;
+    stroke-width: 8px;
 }
 #text {
     fill: floralwhite;
@@ -19,6 +21,8 @@ h1 {
 }
 #circle3 {
     fill:dodgerblue;
+    stroke: black;
+    stroke-width: 8px;
     opacity: 1;
 }
 
